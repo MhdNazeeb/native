@@ -10,6 +10,7 @@ import {
 import FlatCards from './components/FlatCards';
 import ElevetedCards from './components/ElevetedCards';
 import FancyCards from './components/FancyCards';
+import MongoDbCard from './components/MongoDbCard';
 
 function App():JSX.Element {
  
@@ -19,6 +20,7 @@ function App():JSX.Element {
         <FlatCards />
         <ElevetedCards />
         <FancyCards />
+        <MongoDbCard />
       </ScrollView>
     </SafeAreaView>
   );

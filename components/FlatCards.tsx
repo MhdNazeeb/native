@@ -6,18 +6,10 @@ export default function FlatCards() {
     <View>
       <Text style={styles.headText}>FlatCards</Text>
       <View style={styles.container}>
-        <View style={[styles.card, styles.cardOne]}>
-          <Text>red Click</Text>
-        </View>
-        <View style={[styles.card, styles.cardTwo]}>
-          <Text>red Click</Text>
-        </View>
-        <View style={[styles.card, styles.cardThree]}>
-          <Text>red Click</Text>
-        </View>
-        <View style={[styles.card, styles.cardFour]}>
-          <Text>red Click</Text>
-        </View>
+        <View style={[styles.card, styles.cardOne]}></View>
+        <View style={[styles.card, styles.cardTwo]}></View>
+        <View style={[styles.card, styles.cardThree]}></View>
+        <View style={[styles.card, styles.cardFour]}></View>
       </View>
     </View>
   );
